@@ -1,4 +1,4 @@
-console.log('checked');
+
 function waitForElement(selector, timeout = 10000) {
   return new Promise((resolve, reject) => {
     const el = document.querySelector(selector);
